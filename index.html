@@ -81,7 +81,13 @@
                     </p>
 
                     <a href="#pricing" class="btn btn-secondary btn-lg">Buy now</a>
+
+                    <!-- offcanvas -->
+                    <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button"
+                        aria-controls="sidebar"> Explore my other books</a>
                 </div>
+
+                <!-- tooltip -->
 
                 <div class="col-md-5 text-center d-none d-md-block">
                     <span class="tt" data-bs-placement="bottom" title="Minsitry of Happiness">
@@ -398,6 +404,36 @@
         </div>
     </div>
     </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+
+
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">Other books</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sequi aliquid quod pariatur in adipisci
+                eaque porro necessitatibus voluptate autem!
+            </div>
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown">
+                    Books
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">The God of Small Things</a></li>
+                    <li><a class="dropdown-item" href="#">Walking with the comrades</a></li>
+                    <li><a class="dropdown-item" href="#">Listening to grasshoppers</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
